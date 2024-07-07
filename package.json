@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.14.8"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

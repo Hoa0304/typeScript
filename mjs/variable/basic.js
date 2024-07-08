@@ -11,7 +11,7 @@ var arr = [1, 2, 3];
 console.log(arr);
 var arr2 = [4, 5, 6];
 console.log(arr2);
-var obj = { name: "John", age: 30 };
+var obj = { name: "Hoa", age: 18 };
 console.log(obj);
 var tuple = ["Hello", 10, true];
 console.log(tuple);

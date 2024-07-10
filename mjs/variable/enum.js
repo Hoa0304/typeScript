@@ -6,5 +6,5 @@ var STATUS;
     STATUS[STATUS["FINISH"] = 200] = "FINISH";
 })(STATUS || (STATUS = {}));
 ;
-var todoStatus = STATUS.CREATED;
+let todoStatus = STATUS.CREATED;
 console.log(todoStatus);

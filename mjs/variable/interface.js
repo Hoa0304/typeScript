@@ -1,11 +1,11 @@
 // Object
-var object = { name: "Hoa", age: 18 };
+let object = { name: "Hoa", age: 18 };
 console.log(object);
-var objectInterface = { name: "Hoa", age: 20 };
+let objectInterface = { name: "Hoa", age: 20 };
 objectInterface.address = "Hà Nội";
 console.log(objectInterface);
 //array
-var mArray = [1, 2, 3];
+let mArray = [1, 2, 3];
 console.log(mArray);
-var arrayInterface = ["Hello", "World", "TypeScript"];
+let arrayInterface = ["Hello", "World", "TypeScript"];
 console.log(arrayInterface);

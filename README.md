@@ -25,7 +25,7 @@
 - Interface: Đặt tên cho 1 Object Type.
 
 > Sử dụng từ khóa extends để mở rộng interface.
-> Có thể sử dụng union (|) hoặc intersection (&: Khi muốn gom 2 cái interface hay 2 cái object type or 1 object type 1 interface) để mở rộng type. 
+
 ```
 
 - Có thể mở rộng : declaration merging - có thể định nghĩa lại và hệ thống sẽ tự merge vào nhau.

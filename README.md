@@ -45,3 +45,31 @@
 <br>
 
 ## Generics
+
+
+
+## Function
+
+1. Optional & default parameters.
+
+- Optional : ```?``` .
+
+```ts
+
+function getLength(numberList?: number[]) {
+    return Array.isArray(numberList) ? numberList.length : 0;
+}
+
+```
+
+- Default parameters.
+
+```ts
+
+function getLength(numberList: number[] = []) {
+    return Array.isArray(numberList) ? numberList.length : 0;
+}
+
+```
+
+> Không thể kết hợp 2 cái.

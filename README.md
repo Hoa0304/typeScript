@@ -73,3 +73,28 @@ function getLength(numberList: number[] = []) {
 ```
 
 > Không thể kết hợp 2 cái.
+
+2. Function Overload : (chồng hàm)Hàm có nhiều para khác nhau.
+3. Void & never.
+
+```ts
+type Type = number & string; // never
+```
+
+```ts
+function fail(msg: string): never {
+    throw new Error(msg);
+}
+```
+
+```ts
+function fn(x: string | number) {
+    if ( typeof x === "string") {
+        //so something
+    } else if (typeof x === "number") {
+        //do something else
+    } else {
+        x; // has type 'never'
+    }
+}
+```

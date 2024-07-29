@@ -13,3 +13,19 @@ function funcReturnArr(): string[] {
 funcNoReturn();
 console.log(funcReturnNumber());
 console.log(funcReturnArr());
+
+function fnn(x: string | number) {
+    if ( typeof x === "string") {
+        //so something
+    } else if (typeof x === "number") {
+        //do something else
+    } else {
+        x; // has type 'never'
+    }
+}
+
+function fail(msg: string): never {
+    throw new Error(msg);
+}
+
+fail("Something failed"); // This line will never execute, because 'fail' always throws an error

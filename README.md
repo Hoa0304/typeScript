@@ -98,3 +98,5 @@ function fn(x: string | number) {
     }
 }
 ```
+
+3. Destructuring parameter.

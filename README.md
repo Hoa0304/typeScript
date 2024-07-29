@@ -40,3 +40,8 @@
 ### Nên dùng Type Alias hay Interface?
 
 - Luôn dùng ```interface``` đến khi nào kh dùng dc nữa thì qua type alias.
+
+
+<br>
+
+## Generics

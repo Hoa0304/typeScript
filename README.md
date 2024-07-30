@@ -100,3 +100,31 @@ function fn(x: string | number) {
 ```
 
 3. Destructuring parameter.
+
+
+```ts
+function createStudent(id: number, name: string, age: number) {
+    console.log(id,name, age)
+}
+
+createStudent(1, 'Hoa', 20)
+```
+
+- Gom lại thành 1 Object.
+
+```ts
+function createStudent(student: {id: number, name: string, age: number}) {
+    const { id, name, age } = student;
+    console.log(id,name, age)
+}
+
+createStudent({
+    id: 1,
+    name: 'Hoa',
+    age: 20,
+})
+```
+
+4. Type compatible.
+
+<img src= "./type.png>

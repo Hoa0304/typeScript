@@ -42,10 +42,11 @@
 - Luôn dùng ```interface``` đến khi nào kh dùng dc nữa thì qua type alias.
 
 
-<br>
+<br></br>
 
 ## Generics
 
+<br></br>
 
 <details>
 <summary>Function</summary>
@@ -127,6 +128,6 @@ createStudent({
 
 4. Type compatible.
 
-<img src= "./type.png>
+<img src= "./type.png">
 
 </details>

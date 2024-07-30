@@ -44,7 +44,54 @@
 
 <br></br>
 
+## Enum
+
+- Tập hợp 1 nhóm các kiểu dữ liệu cùng nhau.
+- giúp chúng ta miêu tả 1 cách tường minh hơn.
+
+```ts
+enum Status {
+    CREATED, // 0
+    PROCESSING, //1
+    FINISHED, //2
+}
+```
+
+<details>
+<summary>Enum và Constant</summary>
+
+
+> Hạn chế dùng enum.
+
+```ts
+const PI = 3.14159;
+const GRAVITY_ACCELERATION = 9.8;
+const MAX_ARRAY_SIZE = 1000;
+
+// Sử dụng Constant
+let circumference = 2 * PI * radius;
+let weight = mass * GRAVITY_ACCELERATION;
+let myArray = new Array(MAX_ARRAY_SIZE);
+```
+
+```ts
+enum EmployeeStatus {
+  ACTIVE = 'ACTIVE',
+  INACTIVE = 'INACTIVE',
+  TERMINATED = 'TERMINATED',
+  ON_LEAVE = 'ON_LEAVE'
+}
+
+// Sử dụng Enum
+let employeeStatus: EmployeeStatus = EmployeeStatus.ACTIVE;
+console.log(employeeStatus); // Output: 'ACTIVE'
+```
+
+</details>
+
 ## Generics
+
+
 
 <br></br>
 

@@ -90,10 +90,61 @@ console.log(employeeStatus); // Output: 'ACTIVE'
 </details>
 
 ## Generics
+- Là một kiểu dữ liệu có truyển vào 1 tham số.
+<details>
+<summary>keyof operator</summary>
 
+- Lấy ra tất cả key (Lấy ra tất cả các kiểu dữ liệu).
 
+```ts
+interface Student {
+    id: number;
+    name: string;
+    age: number;
+}
+
+type StudentKeys = keyof Student; // "id" | "name" | "age"
+```
+
+</details>
+
+<details>
+<summary>typeof operator</summary>
+
+- Lấy kiểu dữ liệu.
+
+```ts
+console.log(typeof 124); // Output: 'number'
+console.log(typeof "Hello, World!"); // Output: 'string'
+console.log(typeof window !== 'undefined'); // Output: true (true nếu đang ở trong browser)
+```
+
+</details>
+
+<details>
+<summary>mapped operator</summary>
+
+- Thay đổi kiểu dữ liệu.
+
+```ts
+interface Student {
+    id: number;
+    name: string;
+    age: number;
+}
+
+type MappedTypes = {
+    [Key in keyof Student]: number;
+}
+```
+
+</details>
+
+[Thực hành nèo ](ts/generic/index.ts) .
 
 <br></br>
+
+## Utility Types
 
 <details>
 <summary>Function</summary>

@@ -47,8 +47,8 @@
 ## Generics
 
 
-
-## Function
+<details>
+<summary>Function</summary>
 
 1. Optional & default parameters.
 
@@ -128,3 +128,5 @@ createStudent({
 4. Type compatible.
 
 <img src= "./type.png>
+
+</details>

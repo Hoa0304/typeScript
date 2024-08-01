@@ -11,7 +11,6 @@
 ```
 
 - Object destructuring.
-
 - Array destructuring.
 
 [Thực hành nèo ](ts/destructuring.ts) .

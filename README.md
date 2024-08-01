@@ -146,6 +146,42 @@ type MappedTypes = {
 
 ## Utility Types
 
+<img src= "./uti.png">
+
+
+1. Partial ```<Type>``` : 1 phần của 1 kiểu dữ liệu.
+
+- .
+
+```ts
+
+interface Todo {
+  title: string;
+  description: string;
+}
+ 
+function updateTodo(todo: Todo, fieldsToUpdate: Partial<Todo>) {
+  return { ...todo, ...fieldsToUpdate };
+}
+ 
+const todo1 = {
+  title: "organize desk",
+  description: "clear clutter",
+};
+ 
+const todo2 = updateTodo(todo1, {
+  description: "throw out trash",
+});
+
+```S
+
+
+
+<br></br>
+
+
+
+## Fuction
 <details>
 <summary>Function</summary>
 
